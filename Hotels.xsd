@@ -20,7 +20,7 @@
 										<xsd:element name="State" type="xsd:string" default="AZ" minOccurs="1" maxOccurs="1"/>
 										<xsd:element name="Zip" type="xsd:positiveInteger" default="85281" minOccurs="1" maxOccurs="1"/>
 									</xsd:sequence>
-									<xsd:attribute name="NearestAirport" type="xsd:string" fixed="Sky Harbor" use="required"/>
+									<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
 								</xsd:complexType>
 							</xsd:element>
 						</xsd:sequence>
