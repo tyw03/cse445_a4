@@ -16,7 +16,6 @@
   </h:Hotel>
   <h:Hotel h:Rating="4.9">
   	<h:Name>French Quarter Inn</h:Name>
-	<h:Name>Mariott Phoenix Chandler</h:Name>
   	<h:Phone>1-855-940-4291</h:Phone>
   	<h:Phone>1-866-812-1900</h:Phone>
   	<h:Address>
@@ -26,6 +25,7 @@
   		<h:State>SC</h:State>
   		<h:Zip>29401</h:Zip>
   	</h:Address>
+	<h:Name>Mariott Phoenix Chandler</h:Name>
   </h:Hotel>
   <h:Hotel h:Rating="4.9">
   	<h:Name>FivePine Lodge and Spa</h:Name>
