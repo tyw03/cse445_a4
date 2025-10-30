@@ -1,120 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns="http://www.example.org/Hotels" 
+<h:Hotel xmlns:h="http://www.example.org/Hotels" 
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		xsi:schemaLocation="http://www.example.org/Hotels Hotels.xsd">
-  <Hotel Rating="4.2">
-    <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>11</Number>
-      <Street>E. 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.9">
-  	<Name>French Quarter Inn</Name>
-	<Name>Mariott Phoenix Chandler</Name>
-  	<Phone>1-855-940-4291</Phone>
-  	<Phone>1-866-812-1900</Phone>
-  	<Address>
-  		<Number>166</Number>
-  		<Street>Church St</Street>
-  		<City>Charleston</City>
-  		<State>SC</State>
-  		<Zip>29401</Zip>
-  	</Address>
-  </Hotel>
-  <Hotel Rating="4.9">
-  	<Name>FivePine Lodge and Spa</Name>
-  	<Address NearestAirport="Roberts Field">
-  		<Number>1021</Number>
-  		<Street>Desperado Trail</Street>
-  		<City>Sisters</City>
-  		<State>OR</State>
-  		<Zip>97759</Zip>
-	</Address>
-  </Hotel>
-  <Hotel Rating="4.8">
-  	<Name>Hotel Drisco Pacific Heights</Name>
-  	<Phone>1-415-301-3710</Phone>
-  	<Address NearestAirport="San Francisco International Airport">
-  		<Number>2901</Number>
-  		<Street>Pacific Avenue</Street>
-  		<City>San Francisco</City>
-  		<State>CA</State>
-  		<Zip>94115</Zip>
-  	</Address>
-  </Hotel>
-  <Hotel>
-  	<Name>LUMA Hotel Times Square</Name>
-  	<Phone>1-646-941-8829</Phone>
-  	<Address NearestAirport="LaGuardia Airport">
-  		<Number>120</Number>
-  		<Street>West 41st St</Street>
-  		<City>New York City</City>
-  		<State>NY</State>
-  		<Zip>10036</Zip>
-  	</Address>
-  </Hotel>
-  <Hotel Rating="4.7">
-  	<Name>The Godfrey Hotel Boston</Name>
-  	<Phone>617-804-2000</Phone>
-  	<Phone>855-649-4500</Phone>
-  	<Address NearestAirport="Boston Logan International Airport">
-  		<Number>505</Number>
-  		<Street>Washington St</Street>
-  		<City>Boston</City>
-  		<State>MA</State>
-  		<Zip>02111</Zip>
-  	</Address>
-  </Hotel>
-  <Hotel>
-  	<Name>Sunset Marquis</Name>
-  	<Phone>310-657-1333</Phone>
-  	<Phone>800-858-9758</Phone>
-  	<Address NearestAirport="Hollywood Burbank Airport">
-  		<Number>1200</Number>
-  		<Street>Alta Loma Road</Street>
-  		<City>West Hollywood</City>
-  		<State>CA</State>
-  		<Zip>90069</Zip>
-  	</Address>
-  </Hotel>
-  <Hotel>
-  	<Name>The Loutrel</Name>
-  	<Phone>843-894-4316</Phone>
-  	<Address NearestAirport="Charleston International Airport">
-  		<Number>61</Number>
-  		<Street>State St</Street>
-  		<City>Charleston</City>
-  		<State>SC</State>
-  		<Zip>29401</Zip>
-  	</Address>
-  </Hotel>
-  <Hotel>
-  	<Name>Meadowood Napa Valley</Name>
-  	<Phone>855-532-4786</Phone>
-  	<Phone>707-531-7647</Phone>
-  	<Address NearestAirport="Charles M. Schulz–Sonoma County Airport">
-  		<Number>900</Number>
-  		<Street>Meadowood Ln</Street>
-  		<City>St. Helena</City>
-  		<State>CA</State>
-  		<Zip>94574</Zip>
-  	</Address>
-  </Hotel>
-  <Hotel>
-  	<Name>The Blake at Taos Ski Valley</Name>
-  	<Phone>833-519-6536</Phone>
-  	<Address NearestAirport="Albuquerque International Airport">
-  		<Number>116</Number>
-  		<Street>Sutton Place</Street>
-  		<City>Taos Ski Valley</City>
-  		<State>NM</State>
-  		<Zip>87525</Zip>
-  	
-  </Hotel>
-</Hotel>
+  <h:Hotel h:Rating="4.2">
+    <h:Name>Westin</h:Name>
+    <h:Phone>480-968-8885</h:Phone>
+    <h:Phone>800-937-8461</h:Phone>
+    <h:Address h:NearestAirport="Sky Harbor">
+      <h:Number>11</h:Number>
+      <h:Street>E. 7th St</h:Street>
+      <h:City>Tempe</h:City>
+      <h:State>AZ</h:State>
+      <h:Zip>85281</h:Zip>
+    </h:Address>
+  </h:Hotel>
+  <h:Hotel h:Rating="4.9">
+  	<h:Name>French Quarter Inn</h:Name>
+	<h:Name>Mariott Phoenix Chandler</h:Name>
+  	<h:Phone>1-855-940-4291</h:Phone>
+  	<h:Phone>1-866-812-1900</h:Phone>
+  	<h:Address>
+  		<h:Number>166</h:Number>
+  		<h:Street>Church St</h:Street>
+  		<h:City>Charleston</h:City>
+  		<h:State>SC</h:State>
+  		<h:Zip>29401</h:Zip>
+  	</h:Address>
+  </h:Hotel>
+  <h:Hotel h:Rating="4.9">
+  	<h:Name>FivePine Lodge and Spa</h:Name>
+  	<h:Address h:NearestAirport="Roberts Field">
+  		<h:Number>1021</h:Number>
+  		<h:Street>Desperado Trail</h:Street>
+  		<h:City>Sisters</h:City>
+  		<h:State>OR</h:State>
+  		<h:Zip>97759</h:Zip>
+	</h:Address>
+  </h:Hotel>
+  <h:Hotel h:Rating="4.8">
+  	<h:Name>Hotel Drisco Pacific Heights</h:Name>
+  	<h:Phone>1-415-301-3710</h:Phone>
+  	<h:Address h:NearestAirport="San Francisco International Airport">
+  		<h:Number>2901</h:Number>
+  		<h:Street>Pacific Avenue</h:Street>
+  		<h:City>San Francisco</h:City>
+  		<h:State>CA</h:State>
+  		<h:Zip>94115</h:Zip>
+  	</h:Address>
+  </h:Hotel>
+  <h:Hotel>
+  	<h:Name>LUMA Hotel Times Square</h:Name>
+  	<h:Phone>1-646-941-8829</h:Phone>
+  	<h:Address h:NearestAirport="LaGuardia Airport">
+  		<h:Number>120</h:Number>
+  		<h:Street>West 41st St</h:Street>
+  		<h:City>New York City</h:City>
+  		<h:State>NY</h:State>
+  		<h:Zip>10036</h:Zip>
+  	</h:Address>
+  </h:Hotel>
+  <h:Hotel h:Rating="4.7">
+  	<h:Name>The Godfrey Hotel Boston</h:Name>
+  	<h:Phone>617-804-2000</h:Phone>
+  	<h:Phone>855-649-4500</h:Phone>
+  	<h:Address h:NearestAirport="Boston Logan International Airport">
+  		<h:Number>505</h:Number>
+  		<h:Street>Washington St</h:Street>
+  		<h:City>Boston</h:City>
+  		<h:State>MA</h:State>
+  		<h:Zip>02111</h:Zip>
+  	</h:Address>
+  </h:Hotel>
+  <h:Hotel>
+  	<h:Name>Sunset Marquis</h:Name>
+  	<h:Phone>310-657-1333</h:Phone>
+  	<h:Phone>800-858-9758</h:Phone>
+  	<h:Address h:NearestAirport="Hollywood Burbank Airport">
+  		<h:Number>1200</h:Number>
+  		<h:Street>Alta Loma Road</h:Street>
+  		<h:City>West Hollywood</h:City>
+  		<h:State>CA</h:State>
+  		<h:Zip>90069</h:Zip>
+  	</h:Address>
+  </h:Hotel>
+  <h:Hotel>
+  	<h:Name>The Loutrel</h:Name>
+  	<h:Phone>843-894-4316</h:Phone>
+  	<h:Address h:NearestAirport="Charleston International Airport">
+  		<h:Number>61</h:Number>
+  		<h:Street>State St</h:Street>
+  		<h:City>Charleston</h:City>
+  		<h:State>SC</h:State>
+  		<h:Zip>29401</h:Zip>
+  	</h:Address>
+  </h:Hotel>
+  <h:Hotel>
+  	<h:Name>Meadowood Napa Valley</h:Name>
+  	<h:Phone>855-532-4786</h:Phone>
+  	<h:Phone>707-531-7647</h:Phone>
+  	<h:Address h:NearestAirport="Charles M. Schulz–Sonoma County Airport">
+  		<h:Number>900</h:Number>
+  		<h:Street>Meadowood Ln</h:Street>
+  		<h:City>St. Helena</h:City>
+  		<h:State>CA</h:State>
+  		<h:Zip>94574</h:Zip>
+  	</h:Address>
+  </h:Hotel>
+  <h:Hotel>
+  	<h:Name>The Blake at Taos Ski Valley</h:Name>
+  	<h:Phone>833-519-6536</h:Phone>
+  	<h:Address h:NearestAirport="Albuquerque International Airport">
+  		<h:Number>116</h:Number>
+  		<h:Street>Sutton Place</h:Street>
+  		<h:City>Taos Ski Valley</h:City>
+  		<h:State>NM</h:State>
+  		<h:Zip>87525</h:Zip>
+  </h:Hotel>
+</h:Hotel>
