@@ -16,6 +16,7 @@
   </Hotel>
   <Hotel Rating="4.9">
   	<Name>French Quarter Inn</Name>
+	<Name>Mariott Phoenix Chandler</Name>
   	<Phone>1-855-940-4291</Phone>
   	<Phone>1-866-812-1900</Phone>
   	<Address>
@@ -37,7 +38,6 @@
   </Hotel>
   <Hotel Rating="4.8">
   	<Name>Hotel Drisco Pacific Heights</Name>
-  	<Name>Mariott Phoenix Chandler</Name>
   	<Phone>1-415-301-3710</Phone>
   	<Address NearestAirport="San Francisco International Airport">
   		<Number>2901</Number>
