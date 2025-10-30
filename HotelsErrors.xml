@@ -35,6 +35,7 @@
   		<City>Sisters</City>
   		<State>OR</State>
   		<Zip>97759</Zip>
+	</Address>
   </Hotel>
   <Hotel Rating="4.8">
   	<Name>Hotel Drisco Pacific Heights</Name>
@@ -114,6 +115,6 @@
   		<City>Taos Ski Valley</City>
   		<State>NM</State>
   		<Zip>87525</Zip>
-  	</Address>
+  	
   </Hotel>
 </Hotel>
