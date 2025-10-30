@@ -25,7 +25,6 @@
   		<h:State>SC</h:State>
   		<h:Zip>29401</h:Zip>
   	</h:Address>
-	<h:Name>Mariott Phoenix Chandler</h:Name>
   </h:Hotel>
   <h:Hotel h:Rating="4.9">
   	<h:Name>FivePine Lodge and Spa</h:Name>
@@ -39,6 +38,7 @@
   </h:Hotel>
   <h:Hotel h:Rating="4.8">
   	<h:Name>Hotel Drisco Pacific Heights</h:Name>
+	<h:Name>Mariott Phoenix Chandler</h:Name>
   	<h:Phone>1-415-301-3710</h:Phone>
   	<h:Address h:NearestAirport="San Francisco International Airport">
   		<h:Number>2901</h:Number>
