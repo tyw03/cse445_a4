@@ -2,7 +2,7 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 			targetNamespace="http://www.example.org/Hotels" 
 			elementFormDefault="qualified"
-			attributeFormDefault="qualified">
+			attributeFormDefault="unqualified">
 	<xsd:element name="Hotels">
         <xsd:complexType>
 			<xsd:sequence>
