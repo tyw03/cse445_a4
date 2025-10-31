@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Q1.3 (1) The root element name is Hotel, instead of Hotels.-->
-<Hotel xmlns="http://www.example.org/Hotels" 
+<Hotels xmlns="http://www.example.org/Hotels" 
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		xsi:schemaLocation="http://www.example.org/Hotels Hotels.xsd">
   <Hotel Rating="4.2">
@@ -48,7 +48,7 @@
   		<City>San Francisco</City>
   		<State>CA</State>
   		<Zip>94115</Zip>
-  	<!-- Q1.3 (4) An address element has no closing tag.-->
+  	</Address>
   </Hotel>
   <Hotel>
   	<Name>LUMA Hotel Times Square</Name>
@@ -60,6 +60,7 @@
   		<State>NY</State>
   		<Zip>10036</Zip>
   	</Address>
+  	<!-- Q1.3 (4) An address element has no closing tag.-->
   </Hotel>
   <Hotel Rating="4.7">
   	<Name>The Godfrey Hotel Boston</Name>
@@ -119,4 +120,4 @@
   		<Zip>87525</Zip>
   	</Address>
   </Hotel>
-</Hotel>
+</Hotels>
