@@ -9,22 +9,22 @@
 				<xsd:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
 					<xsd:complexType>
 						<xsd:sequence>
-							<xsd:element name="Name" type="xsd:string" default="Westin" minOccurs="1" maxOccurs="1"/>
-							<xsd:element name="Phone" type="xsd:string" default="000-000-000" minOccurs="1" maxOccurs="unbounded"/>
+							<xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+							<xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
 							<xsd:element name="Address" minOccurs="1" maxOccurs="1">
 								<xsd:complexType>
 									<xsd:sequence>
-										<xsd:element name="Number" type="xsd:integer" default="11" minOccurs="1" maxOccurs="1"/>
-										<xsd:element name="Street" type="xsd:string" default="E. 7th St" minOccurs="1" maxOccurs="1"/>
-										<xsd:element name="City" type="xsd:string" default="Tempe" minOccurs="1" maxOccurs="1"/>
-										<xsd:element name="State" type="xsd:string" default="AZ" minOccurs="1" maxOccurs="1"/>
-										<xsd:element name="Zip" type="xsd:positiveInteger" default="85281" minOccurs="1" maxOccurs="1"/>
+										<xsd:element name="Number" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+										<xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+										<xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+										<xsd:element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+										<xsd:element name="Zip" type="xsd:positiveInteger" minOccurs="1" maxOccurs="1"/>
 									</xsd:sequence>
 									<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
 								</xsd:complexType>
 							</xsd:element>
 						</xsd:sequence>
-						<xsd:attribute name="Rating" type="xsd:string" use="optional"/>
+						<xsd:attribute name="Rating" type="xsd:string" default="0.0" use="optional"/>
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
