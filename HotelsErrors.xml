@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<h:Hotel xmlns:h="http://www.example.org/Hotels" 
+<h:Hotels xmlns:h="http://www.example.org/Hotels" 
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		xsi:schemaLocation="http://www.example.org/Hotels Hotels.xsd">
   <h:Hotel h:Rating="4.2">
@@ -116,4 +116,4 @@
   		<h:State>NM</h:State>
   		<h:Zip>87525</h:Zip>
   </h:Hotel>
-</h:Hotel>
+</h:Hotels>
