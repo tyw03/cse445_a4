@@ -30,7 +30,7 @@
   <Hotel Rating="4.9">
   	<Name>FivePine Lodge and Spa</Name>
   	<Name>Mariott Phoenix Chandler</Name> <!-- Q1.3 (5) Two names are provided for one of the hotels.-->
-  	<!-- Q1.3 (3) A Phone element is missing on one of the hotels.-->
+  	<Phone>541-549-5900</Phone>
   	<Address NearestAirport="Roberts Field">
   		<Number>1021</Number>
   		<Street>Desperado Trail</Street>
@@ -41,7 +41,7 @@
   </Hotel>
   <Hotel Rating="4.8">
   	<Name>Hotel Drisco Pacific Heights</Name>
-  	<Phone>1-415-301-3710</Phone>
+  	<!-- Q1.3 (3) A Phone element is missing on one of the hotels.-->
   	<Address NearestAirport="San Francisco International Airport">
   		<Number>2901</Number>
   		<Street>Pacific Avenue</Street>
