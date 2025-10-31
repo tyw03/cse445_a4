@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Q1.3 (1) The root element name is Hotel, instead of Hotels.-->
-<Hotels xmlns="http://www.example.org/Hotels" 
+<Hotel xmlns="http://www.example.org/Hotels" 
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		xsi:schemaLocation="http://www.example.org/Hotels Hotels.xsd">
   <Hotel Rating="4.2">
@@ -119,4 +119,4 @@
   		<Zip>87525</Zip>
   	</Address>
   </Hotel>
-</Hotels>
+</Hotel>
